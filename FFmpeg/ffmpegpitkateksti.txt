@@ -1,0 +1,4 @@
+ffmpeg -i Capture0008_1.mp4 -preset veryfast -keyint_min 120 -g 120 -sc_threshold 0 -r 29.97 -c:v libx264 -pix_fmt yuv420p -crf 21 -map v:0 -s:0 640x360 -maxrate:0 365k -bufsize:0 730k -map v:0 -s:1 960x540 -maxrate:1 2M -bufsize:1 4M -map v:0 -s:2 1280x720 -maxrate:2 6M -bufsize:2 12M -map v:0 -s:3 1920x1080 -maxrate:3 7.8M -bufsize:3 15.6M -map a:0 -map a:0 -map a:0 -map a:0 -c:a aac -b:a 128k -ac 1 -ar 44100 -f hls -hls_time 4 -hls_playlist_type vod -hls_flags independent_segments -master_pl_name master.m3u8 -hls_segment_filename stream_%v/s%06d.ts -strftime_mkdir 1 -var_stream_map "v:0,a:0 v:1,a:1 v:2,a:2 v:3,a:3" stream_%v.m3u8
+
+
+tää pitkä komento on teemun, toi mikä video voidaan säätää 240p 420p 720p ja je

@@ -1,0 +1,45 @@
+https://help.encoding.com/knowledge-base/article/what-is-video-encoding/
+https://manual.audacityteam.org/man/file_export_dialog.html
+https://www.youtube.com/results?search_query=audacity+encoding
+https://www.cloudflare.com/learning/video/live-stream-encoding/
+https://keskustelu.suomi24.fi/t/2647117/dekoodausenkoodaus
+https://login.netromedia.com/Solutions/View.aspx?ID=e88b4bc4-2a3b-4294-9b37-b4a300669bac
+
+https://support.google.com/youtube/answer/2853702?hl=fi
+
+ffmpeg::::
+
+https://video.stackexchange.com/questions/18469/is-it-possible-to-speed-up-a-video-using-handbrake
+
+https://www.tecmint.com/ffmpeg-commands-for-video-audio-and-image-conversion-in-linux/
+
+https://ostechnix.com/20-ffmpeg-commands-beginners/
+__________________________________________________________________________________
+Teemun esimerkki 31.8 tunnilta::
+
+C:\Users\omakonetunnus\Downloads\ffmpeg\bin>ffmpeg.exe videonnimi.mp4 -c:v libaom-av1 -crf 30 -b:v 0 -strict 2 av1_testi.mkv
+
+C:\Users\omakonetunnus\Downloads\ffmpeg\bin>ffmpeg.exe videonnimi.mp4 -c:v libaom-av1 -s 1920x1080 -crf 30 -b:v 0 -strict 2 av1_testi.mkv
+
+C:\Users\omakonetunnus\Downloads\ffmpeg\bin>ffmpeg.exe videonnimi.mp4 -c:v libaom-av1 -s 1920x1080 -crf 30 -b:v 0 -strict 2 av1_testi.mkv
+
+cmd komennot::
+dir - show list (as ls)
+cls - clear screen ( clear)
+https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows
+
+https://trac.ffmpeg.org/wiki/How%20to%20speed%20up%20/%20slow%20down%20a%20video
+
+https://superuser.com/questions/1261678/how-do-i-speed-up-a-video-by-60x-in-ffmpeg/1261681
+
+https://superuser.com/questions/1324525/is-it-possible-to-speed-up-video-with-audio-using-ffmpeg-without-changing-audio
+
+https://williamyaps.blogspot.com/2017/01/ffmpeg-speed-up-video-and-audio.html
+
+https://www.tecmint.com/ffmpeg-commands-for-video-audio-and-image-conversion-in-linux/
+
+https://www.youtube.com/watch?v=3KKM3mIdf80&list=PLT89WYRFupd6FLlbJWInTrYa0lEwAeJ4u&index=1
+
+__________________________________________________________________________________
+
+
